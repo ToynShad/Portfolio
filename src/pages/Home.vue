@@ -3,7 +3,7 @@
         <Presentation></Presentation>
         <button @click="openModaleDiplomes">Mes Diplômes - Formations </button>
         <button @click="openModaleCompetences">Mes Compétences</button>
-        <button @click="openModaleExperiences">Mes Expériences professionnelles</button><br>
+        <button @click="openModaleExperiences">Mes Expériences professionnelle</button><br>
     <div id="realisations">
         <h1>Mes réalisations</h1>
         <div class="realimg">
@@ -43,7 +43,7 @@ export default {
             this.modale.visible=true
         },
         openModaleExperiences() {
-            this.modale.titre="Mes Expériences professionnelles"
+            this.modale.titre="Mes Expériences professionnelle"
             this.modale.component="experiences"
             this.modale.visible=true
         },
