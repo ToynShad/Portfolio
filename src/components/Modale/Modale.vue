@@ -62,7 +62,7 @@ import Projects from '../Projects/Projets.vue';
     }
 
     h2 {
-        color: white;
+        color: white;  
     }
 
 </style>

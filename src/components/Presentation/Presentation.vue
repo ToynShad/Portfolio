@@ -46,7 +46,7 @@ export default {
 #presentation img {
     width: 350px;
     height: 350px;
-    border-radius: 90% 40% 50% 70%;
+    border-radius: 50% 20%;
     margin-left: 35%;
     margin-right: 50px;
     box-shadow: 6px 6px 25px black;
